@@ -5,7 +5,7 @@ const App = () => {
   const[result, setResult] = useState("");
 
   const handleClick = (e) =>{
-      setResult(result.concat(e.target.value))//to display input inline
+      setResult(result.concat(e.target.value))//to display input inline concat
   }
   const clear = () => {
     setResult("");
