@@ -20,7 +20,7 @@ body {
   width: 256px;
   text-align: center;
   border: 10px solid #101116 !important;
-  border: 5px;
+  border-radius: 5px;
   background-color: #101116;
 }
 
