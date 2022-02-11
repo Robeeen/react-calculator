@@ -27,7 +27,7 @@ body {
 .keypad {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: minmax(60px, auto);
+  grid-auto-rows: minmax(60px, auto);
 }
 
 input[type="text"] {

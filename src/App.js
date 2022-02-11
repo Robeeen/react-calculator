@@ -23,7 +23,7 @@ const App = () => {
   return(
     <>
     <div className="container">
-      <form action="">
+      <form>
         <input type="text" value={result}/>
       </form>
      <div className="keypad">
